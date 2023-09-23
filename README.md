@@ -1,27 +1,61 @@
-# BlogWithAngular
+# Blog com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+![Blog com Angular](readme/cardProject/main.png)
 
-## Development server
+# Índice
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* [Título e Imagens Home](#blog-com-angular)
+* [tecnologias utilizadas](#tecnologias-utilizadas)
+* [Descrição do projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-projeto)
+* [Funcionalidade do projeto](#🔨-funcionalidade-do-projeto)
+* [Acesso ao Projeto](#acesso-ao-projeto)
 
-## Code scaffolding
+# Tecnologias utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
-## Build
+# Descrição do Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O projeto "Blog com Angular" é parte do currículo da formação de Desenvolvedor Web da [Trybe](https://www.betrybe.com/). Nesse projeto, os alunos têm a oportunidade de aplicar seus conhecimentos ... 
 
-## Running unit tests
+# Status do Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> 💹 Alpha 💹
 
-## Running end-to-end tests
+# 🔨 Funcionalidade do projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Funcionalidade
 
-## Further help
+# Acesso ao projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para acessar e executar este projeto, siga os passos abaixo:
+
+1. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+
+2. Clone o Projeto
+
+```bash
+git clone  NomeDaPasta
+```
+
+3. Entre no projeto
+
+```bash
+cd NomeDaPasta
+```
+
+4. Instale as Dependências
+
+```bash
+npm install
+```
+
+5. inicie o projeto
+
+```bash
+npm start
+```
