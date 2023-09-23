@@ -1,0 +1,13 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .articles {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+  }
+}
