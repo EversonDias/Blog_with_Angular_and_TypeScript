@@ -40,13 +40,13 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone https://github.com/EversonDias/Blog_with_Angular_and_TypeScript.git blocComAngular
+git clone https://github.com/EversonDias/Blog_with_Angular_and_TypeScript.git blogComAngular
 ```
 
 3. Entre no projeto
 
 ```bash
-cd blocComAngular
+cd blogComAngular
 ```
 
 4. Instale as Dependências
