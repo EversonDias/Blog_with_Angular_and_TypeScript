@@ -1,11 +1,29 @@
 <app-menu-title></app-menu-title>
 
-<div class="articles">
-  <div class="article_main">
-    <app-big-card></app-big-card>
+<div class="articles" >
+
+  <div class="article-main">
+    <app-big-card
+    isHighlighted="true"
+    date="{{listArticles[0].date}}"
+    title="{{listArticles[0].title}}"
+    url="{{listArticles[0].url}}"
+    detail="{{listArticles[0].detail}}"
+    id="{{listArticles[0].id}}"
+    ></app-big-card>
   </div>
 
-  <div class="article_small">
-    <app-small-card></app-small-card>
+  <div class="articles-simple">
+  <div *ngFor="let article of listArticles;" 
+  class="{{article.id > '1' ? '' : 'hidden'}}">
+        <div class="article_small">
+          <app-big-card
+          date="{{article.date}}"
+          title="{{article.title}}"
+          url="{{article.url}}"
+          id="{{article.id}}"
+          ></app-big-card>
+        </div>
+    </div>
   </div>
 </div>

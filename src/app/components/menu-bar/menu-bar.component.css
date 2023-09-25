@@ -1,0 +1,115 @@
+img {
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+.desktop {
+  display: none;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.desktop > ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.desktop-nav-bar {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list-icons {
+  font-size: 1.5rem;
+}
+
+.mobile {
+  width: 100%;
+  height: 3rem;
+}
+
+.mobile-main {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #111111;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  z-index: 10;
+}
+
+.menu-icon {
+  font-size: 2rem;
+}
+
+.menu-hamburg {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: #80808050;
+  z-index: 0;
+}
+
+.menu-main {
+  background-color: #111111;
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  animation-name: handleMenu;
+  animation-duration: 500ms;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-weight: 600;
+  padding-top: 15rem;
+}
+
+.list-icons {
+  display: flex;
+  gap: 1rem;
+
+}
+
+@keyframes handleMenu {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 40%;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: flex;
+  }
+  .mobile {
+    display: none;
+  }
+  .menu-hamburg {
+    display: none;
+  }
+}

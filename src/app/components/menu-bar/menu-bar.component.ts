@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class MenuBarComponent {
 
+  isOpen: boolean = false;
+
+  handleMenu() {
+    this.isOpen = !this.isOpen;
+  }
 }

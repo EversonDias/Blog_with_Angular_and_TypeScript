@@ -20,7 +20,7 @@
 
 # Descrição do Projeto
 
-O projeto "Blog com Angular" é parte do currículo da formação de Desenvolvedor Web da [Trybe](https://www.betrybe.com/). Nesse projeto, os alunos têm a oportunidade de aplicar seus conhecimentos ... 
+O projeto "Blog com Angular" é parte do currículo do BootCamp Santander Bootcamp 2023 - Fullstack Java+Angular da [Dio](https://web.dio.me/home). Nesse projeto, os alunos têm a oportunidade de aplicar seus conhecimentos no FrameWork Angular e TypeScript aplicando seus conhecimento na criação de rotas, gerenciamento de estado e ciclo de vida em uma aplicação responsiva.
 
 # Status do Projeto
 
@@ -28,7 +28,8 @@ O projeto "Blog com Angular" é parte do currículo da formação de Desenvolved
 
 # 🔨 Funcionalidade do projeto
 
-- Funcionalidade
+- Abrir detalhes da Noticia
+- Voltar ao para primeira Pagina
 
 # Acesso ao projeto
 
@@ -39,13 +40,13 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone  NomeDaPasta
+git clone https://github.com/EversonDias/Blog_with_Angular_and_TypeScript.git blocComAngular
 ```
 
 3. Entre no projeto
 
 ```bash
-cd NomeDaPasta
+cd blocComAngular
 ```
 
 4. Instale as Dependências
