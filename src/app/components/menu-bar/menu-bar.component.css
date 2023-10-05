@@ -113,3 +113,7 @@ ul {
     display: none;
   }
 }
+
+.activated {
+  border-bottom: #9400FF 2px solid;
+}

@@ -7,7 +7,11 @@
     >
   </picture>
   <ul class="desktop-nav-bar">
-    <li [routerLink]="'/'">HOME</li>
+    <li
+     [routerLink]="'/'"
+      [routerLinkActive]="'activated'"
+      [routerLinkActiveOptions]="{exact: true}"
+    >HOME</li>
     <li>BLOG</li>
     <li>BOOKMARKS</li>
     <li>UI KIT</li>
